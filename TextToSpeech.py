@@ -1,7 +1,5 @@
 from gtts import gTTS
 import os
-
-string="Hello How are you ?"
 def say(s):
 	tts = gTTS(text=s, lang='en')
 	tts.save("good.mp3")
